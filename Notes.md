@@ -99,3 +99,9 @@ step-into-iot.cloud
 ansible_user=ec2-user
 ansible_password=DevOps321
 ```
+#### run playbooks
+```
+ansible-playbook DB.yml
+ansible-playbook BE.yml
+ansible-playbook FE.yml
+```
